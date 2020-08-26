@@ -13,12 +13,17 @@ img{ border:0; }
 h1{	font-size: 2.0em; }
 h2{	font-size: 1.5em; }
 
-
 /*Contenedor principal*/
 #container {
 	margin: 0 auto;
 	max-width: 1024px;
 	border: 1px solid #000;
+}
+#content h1,h2{
+	color: #e4fdff;
+}
+#container p{
+	font-family: 'Roboto', sans-serif;
 }
 /*********************************/
 /*Encabezado*/
@@ -26,11 +31,13 @@ h2{	font-size: 1.5em; }
 /*Color en degradado creado en http://www.colorzilla.com/gradient-editor/ */
 	padding: 20px;
 	height:60px;
+	background-color: #7cafb2;
+	color: white;
 }
 
-#header h1 { 
+#header h1 {
 	margin: 0;
-	font-weight:300;	  
+	font-weight:300;
 }
 /*********************************/
 /*Menú*/
@@ -40,10 +47,10 @@ h2{	font-size: 1.5em; }
 	border:1px solid #000
 }
 
-#navigation ul {	
+#navigation ul {
 	margin: 0;
 	padding: 0;
-	list-style-type: none;	
+	list-style-type: none;
 }
 
 #navigation ul li {	display: inline; }
@@ -52,7 +59,7 @@ h2{	font-size: 1.5em; }
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 #navigation li a:hover { background:#FF0000; }
@@ -63,16 +70,15 @@ h2{	font-size: 1.5em; }
 	padding: 20px;
 }
 
-#content a { 
+#content a {
 	/* Color de los hipervinculos*/
 }
 
-#content h1 {		
-	padding-bottom: 10px;	
+#content h1 {
+	padding-bottom: 10px;
 }
-
 #content h1, #content h2 {
-	margin: 0 0 1em 0;	
+	margin: 0 0 1em 0;
 }
 /*********************************/
 /*Pie*/
@@ -91,8 +97,8 @@ h2{	font-size: 1.5em; }
 	float:left;
 	list-style-type: none;
 	text-align:left;
-	margin: 0 0 10px 0;		
-	padding:0;	
+	margin: 0 0 10px 0;
+	padding:0;
 }
 
 #footer ul li a {
@@ -110,12 +116,12 @@ h2{	font-size: 1.5em; }
 
 #alineado label{
 	width: 25%;
-	text-align: right;		
+	text-align: right;
 }
 
-#alineado label, 
-#alineado input, 
-#alineado select, 
+#alineado label,
+#alineado input,
+#alineado select,
 #alineado textarea{
 	display:inline-block;
 }
@@ -123,12 +129,12 @@ h2{	font-size: 1.5em; }
 #alineado .chk{
 	display:block;
 	margin-left:25%;
-	text-align:left;	
+	text-align:left;
 }
 
 label.chk input {
 	display:inline;
-	border:0px;	
+	border:0px;
 }
 
 #vertical label{
